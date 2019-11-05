@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF6587A2371648C0069A901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF658792371648C0069A901 /* AppDelegate.m */; };
+		BFF6587D2371648C0069A901 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6587C2371648C0069A901 /* ViewController.m */; };
+		BFF6587F237164900069A901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6587E237164900069A901 /* Assets.xcassets */; };
+		BFF65882237164900069A901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF65880237164900069A901 /* Main.storyboard */; };
+		BFF65885237164900069A901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF65884237164900069A901 /* main.m */; };
+		BFF65890237164900069A901 /* fiveZero_gameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6588F237164900069A901 /* fiveZero_gameTests.m */; };
+		BFF6589B237164900069A901 /* fiveZero_gameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF6589A237164900069A901 /* fiveZero_gameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF6588C237164900069A901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6586D2371648C0069A901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF658742371648C0069A901;
+			remoteInfo = fiveZero_game;
+		};
+		BFF65897237164900069A901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6586D2371648C0069A901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF658742371648C0069A901;
+			remoteInfo = fiveZero_game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFF658752371648C0069A901 /* fiveZero_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiveZero_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF658782371648C0069A901 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFF658792371648C0069A901 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFF6587B2371648C0069A901 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFF6587C2371648C0069A901 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFF6587E237164900069A901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF65881237164900069A901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFF65883237164900069A901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF65884237164900069A901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFF65886237164900069A901 /* fiveZero_game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fiveZero_game.entitlements; sourceTree = "<group>"; };
+		BFF6588B237164900069A901 /* fiveZero_gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiveZero_gameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6588F237164900069A901 /* fiveZero_gameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiveZero_gameTests.m; sourceTree = "<group>"; };
+		BFF65891237164900069A901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF65896237164900069A901 /* fiveZero_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiveZero_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6589A237164900069A901 /* fiveZero_gameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiveZero_gameUITests.m; sourceTree = "<group>"; };
+		BFF6589C237164900069A901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF658722371648C0069A901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65888237164900069A901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65893237164900069A901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF6586C2371648C0069A901 = {
+			isa = PBXGroup;
+			children = (
+				BFF658772371648C0069A901 /* fiveZero_game */,
+				BFF6588E237164900069A901 /* fiveZero_gameTests */,
+				BFF65899237164900069A901 /* fiveZero_gameUITests */,
+				BFF658762371648C0069A901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF658762371648C0069A901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF658752371648C0069A901 /* fiveZero_game.app */,
+				BFF6588B237164900069A901 /* fiveZero_gameTests.xctest */,
+				BFF65896237164900069A901 /* fiveZero_gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF658772371648C0069A901 /* fiveZero_game */ = {
+			isa = PBXGroup;
+			children = (
+				BFF658782371648C0069A901 /* AppDelegate.h */,
+				BFF658792371648C0069A901 /* AppDelegate.m */,
+				BFF6587B2371648C0069A901 /* ViewController.h */,
+				BFF6587C2371648C0069A901 /* ViewController.m */,
+				BFF6587E237164900069A901 /* Assets.xcassets */,
+				BFF65880237164900069A901 /* Main.storyboard */,
+				BFF65883237164900069A901 /* Info.plist */,
+				BFF65884237164900069A901 /* main.m */,
+				BFF65886237164900069A901 /* fiveZero_game.entitlements */,
+			);
+			path = fiveZero_game;
+			sourceTree = "<group>";
+		};
+		BFF6588E237164900069A901 /* fiveZero_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6588F237164900069A901 /* fiveZero_gameTests.m */,
+				BFF65891237164900069A901 /* Info.plist */,
+			);
+			path = fiveZero_gameTests;
+			sourceTree = "<group>";
+		};
+		BFF65899237164900069A901 /* fiveZero_gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6589A237164900069A901 /* fiveZero_gameUITests.m */,
+				BFF6589C237164900069A901 /* Info.plist */,
+			);
+			path = fiveZero_gameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF658742371648C0069A901 /* fiveZero_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6589F237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_game" */;
+			buildPhases = (
+				BFF658712371648C0069A901 /* Sources */,
+				BFF658722371648C0069A901 /* Frameworks */,
+				BFF658732371648C0069A901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fiveZero_game;
+			productName = fiveZero_game;
+			productReference = BFF658752371648C0069A901 /* fiveZero_game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFF6588A237164900069A901 /* fiveZero_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF658A2237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_gameTests" */;
+			buildPhases = (
+				BFF65887237164900069A901 /* Sources */,
+				BFF65888237164900069A901 /* Frameworks */,
+				BFF65889237164900069A901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF6588D237164900069A901 /* PBXTargetDependency */,
+			);
+			name = fiveZero_gameTests;
+			productName = fiveZero_gameTests;
+			productReference = BFF6588B237164900069A901 /* fiveZero_gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF65895237164900069A901 /* fiveZero_gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF658A5237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_gameUITests" */;
+			buildPhases = (
+				BFF65892237164900069A901 /* Sources */,
+				BFF65893237164900069A901 /* Frameworks */,
+				BFF65894237164900069A901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF65898237164900069A901 /* PBXTargetDependency */,
+			);
+			name = fiveZero_gameUITests;
+			productName = fiveZero_gameUITests;
+			productReference = BFF65896237164900069A901 /* fiveZero_gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF6586D2371648C0069A901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = hapii;
+				TargetAttributes = {
+					BFF658742371648C0069A901 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BFF6588A237164900069A901 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BFF658742371648C0069A901;
+					};
+					BFF65895237164900069A901 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BFF658742371648C0069A901;
+					};
+				};
+			};
+			buildConfigurationList = BFF658702371648C0069A901 /* Build configuration list for PBXProject "fiveZero_game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF6586C2371648C0069A901;
+			productRefGroup = BFF658762371648C0069A901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF658742371648C0069A901 /* fiveZero_game */,
+				BFF6588A237164900069A901 /* fiveZero_gameTests */,
+				BFF65895237164900069A901 /* fiveZero_gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF658732371648C0069A901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6587F237164900069A901 /* Assets.xcassets in Resources */,
+				BFF65882237164900069A901 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65889237164900069A901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65894237164900069A901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF658712371648C0069A901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6587D2371648C0069A901 /* ViewController.m in Sources */,
+				BFF65885237164900069A901 /* main.m in Sources */,
+				BFF6587A2371648C0069A901 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65887237164900069A901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF65890237164900069A901 /* fiveZero_gameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF65892237164900069A901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6589B237164900069A901 /* fiveZero_gameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF6588D237164900069A901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF658742371648C0069A901 /* fiveZero_game */;
+			targetProxy = BFF6588C237164900069A901 /* PBXContainerItemProxy */;
+		};
+		BFF65898237164900069A901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF658742371648C0069A901 /* fiveZero_game */;
+			targetProxy = BFF65897237164900069A901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF65880237164900069A901 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF65881237164900069A901 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFF6589D237164900069A901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFF6589E237164900069A901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFF658A0237164900069A901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fiveZero_game/fiveZero_game.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFF658A1237164900069A901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fiveZero_game/fiveZero_game.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFF658A3237164900069A901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_gameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiveZero_game.app/Contents/MacOS/fiveZero_game";
+			};
+			name = Debug;
+		};
+		BFF658A4237164900069A901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_gameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiveZero_game.app/Contents/MacOS/fiveZero_game";
+			};
+			name = Release;
+		};
+		BFF658A6237164900069A901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_gameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fiveZero_game;
+			};
+			name = Debug;
+		};
+		BFF658A7237164900069A901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiveZero_gameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QF.fiveZero-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fiveZero_game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF658702371648C0069A901 /* Build configuration list for PBXProject "fiveZero_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6589D237164900069A901 /* Debug */,
+				BFF6589E237164900069A901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6589F237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF658A0237164900069A901 /* Debug */,
+				BFF658A1237164900069A901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF658A2237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF658A3237164900069A901 /* Debug */,
+				BFF658A4237164900069A901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF658A5237164900069A901 /* Build configuration list for PBXNativeTarget "fiveZero_gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF658A6237164900069A901 /* Debug */,
+				BFF658A7237164900069A901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF6586D2371648C0069A901 /* Project object */;
+}
